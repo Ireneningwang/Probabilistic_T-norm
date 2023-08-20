@@ -1,0 +1,358 @@
+2022-09-15 02:29:34,032 - tnorm_latent_variables.py - INFO: 
+ ['px, py1, py0:', 0.8538429155246329, 0.79470578639029, 0.8713633445351118]
+2022-09-15 02:29:34,033 - tnorm_latent_variables.py - INFO: 
+ ['data:',    X | ~Y  X | Y  ~X | Y  X & ~Y  ~Y  ~X  ~X | ~Y  X & Y  ~X & Y  ~X & ~Y
+0       1      0       1       0   1   1        1      0       0        1
+1       1      0       1       0   1   1        1      0       0        1
+2       1      0       1       0   1   1        1      0       0        1
+3       1      0       1       0   1   1        1      0       0        1
+4       1      0       1       0   1   1        1      0       0        1
+5       0      1       1       0   0   1        1      0       1        0
+6       1      0       1       0   1   1        1      0       0        1
+7       1      1       0       1   1   0        1      0       0        0
+8       0      1       1       0   0   1        1      0       1        0
+9       1      1       0       1   1   0        1      0       0        0]
+2022-09-15 02:29:34,050 - tnorm_latent_variables.py - INFO: 
+ ['Training data: ',    X | ~Y  X | Y  ~X | Y  X & ~Y  ~Y  ~X  ~X | ~Y  X & Y  ~X & Y  ~X & ~Y
+6       1      0       1       0   1   1        1      0       0        1
+4       1      0       1       0   1   1        1      0       0        1
+0       1      0       1       0   1   1        1      0       0        1
+3       1      0       1       0   1   1        1      0       0        1
+1       1      0       1       0   1   1        1      0       0        1
+7       1      1       0       1   1   0        1      0       0        0
+8       0      1       1       0   0   1        1      0       1        0
+5       0      1       1       0   0   1        1      0       1        0]
+2022-09-15 02:29:34,068 - tnorm_latent_variables.py - INFO: 
+ ['Testing data: ',    X | ~Y  X | Y  ~X | Y  X & ~Y  ~Y  ~X  ~X | ~Y  X & Y  ~X & Y  ~X & ~Y
+2       1      0       1       0   1   1        1      0       0        1
+9       1      1       0       1   1   0        1      0       0        0]
+2022-09-15 02:29:34,084 - tnorm_latent_variables.py - INFO: 
+ ['Training shape:', (8, 10), 'Testing shape: ', (2, 10)]
+2022-09-15 02:29:34,272 - tnorm_latent_variables.py - INFO: 
+ -------------------------------------------------------------------------
+2022-09-15 02:29:34,272 - tnorm_latent_variables.py - INFO: 
+ ['batch = ', 0]
+2022-09-15 02:29:34,272 - tnorm_latent_variables.py - INFO: 
+ ['Training batch loss = ', 15.667356765596196]
+2022-09-15 02:29:34,274 - tnorm_latent_variables.py - INFO: 
+ ['px', ':', Parameter containing:
+tensor(0.0198, requires_grad=True)]
+2022-09-15 02:29:34,275 - tnorm_latent_variables.py - INFO: 
+ ['py', ':', Parameter containing:
+tensor(0.2636, requires_grad=True)]
+2022-09-15 02:29:34,277 - tnorm_latent_variables.py - INFO: 
+ ['dependency', ':', Parameter containing:
+tensor(0.6669, requires_grad=True)]
+2022-09-15 02:29:34,301 - tnorm_latent_variables.py - INFO: 
+ -------------------------------------------------------------------------
+2022-09-15 02:29:34,301 - tnorm_latent_variables.py - INFO: 
+ ['batch = ', 0]
+2022-09-15 02:29:34,301 - tnorm_latent_variables.py - INFO: 
+ ['Validation batch loss = ', 4.5247001368989]
+2022-09-15 02:29:34,304 - tnorm_latent_variables.py - INFO: 
+ ['px', ':', Parameter containing:
+tensor(0.0198, requires_grad=True)]
+2022-09-15 02:29:34,306 - tnorm_latent_variables.py - INFO: 
+ ['py', ':', Parameter containing:
+tensor(0.2636, requires_grad=True)]
+2022-09-15 02:29:34,308 - tnorm_latent_variables.py - INFO: 
+ ['dependency', ':', Parameter containing:
+tensor(0.6669, requires_grad=True)]
+2022-09-15 02:29:34,897 - tnorm_latent_variables.py - INFO: 
+ -------------------------------------------------------------------------
+2022-09-15 02:29:34,897 - tnorm_latent_variables.py - INFO: 
+ ['batch = ', 8]
+2022-09-15 02:29:34,897 - tnorm_latent_variables.py - INFO: 
+ ['Training batch loss = ', 12.198813678289298]
+2022-09-15 02:29:34,898 - tnorm_latent_variables.py - INFO: 
+ ['px', ':', Parameter containing:
+tensor(0.0732, requires_grad=True)]
+2022-09-15 02:29:34,900 - tnorm_latent_variables.py - INFO: 
+ ['py', ':', Parameter containing:
+tensor(0.2317, requires_grad=True)]
+2022-09-15 02:29:34,901 - tnorm_latent_variables.py - INFO: 
+ ['dependency', ':', Parameter containing:
+tensor(0.4518, requires_grad=True)]
+2022-09-15 02:29:34,949 - tnorm_latent_variables.py - INFO: 
+ -------------------------------------------------------------------------
+2022-09-15 02:29:34,949 - tnorm_latent_variables.py - INFO: 
+ ['batch = ', 8]
+2022-09-15 02:29:34,949 - tnorm_latent_variables.py - INFO: 
+ ['Validation batch loss = ', 4.118648177740397]
+2022-09-15 02:29:34,952 - tnorm_latent_variables.py - INFO: 
+ ['px', ':', Parameter containing:
+tensor(0.0732, requires_grad=True)]
+2022-09-15 02:29:34,954 - tnorm_latent_variables.py - INFO: 
+ ['py', ':', Parameter containing:
+tensor(0.2317, requires_grad=True)]
+2022-09-15 02:29:34,955 - tnorm_latent_variables.py - INFO: 
+ ['dependency', ':', Parameter containing:
+tensor(0.4518, requires_grad=True)]
+2022-09-15 02:29:35,627 - tnorm_latent_variables.py - INFO: 
+ -------------------------------------------------------------------------
+2022-09-15 02:29:35,627 - tnorm_latent_variables.py - INFO: 
+ ['batch = ', 16]
+2022-09-15 02:29:35,627 - tnorm_latent_variables.py - INFO: 
+ ['Training batch loss = ', 12.204366098041646]
+2022-09-15 02:29:35,628 - tnorm_latent_variables.py - INFO: 
+ ['px', ':', Parameter containing:
+tensor(0.0749, requires_grad=True)]
+2022-09-15 02:29:35,629 - tnorm_latent_variables.py - INFO: 
+ ['py', ':', Parameter containing:
+tensor(0.2300, requires_grad=True)]
+2022-09-15 02:29:35,631 - tnorm_latent_variables.py - INFO: 
+ ['dependency', ':', Parameter containing:
+tensor(0.4242, requires_grad=True)]
+2022-09-15 02:29:35,657 - tnorm_latent_variables.py - INFO: 
+ -------------------------------------------------------------------------
+2022-09-15 02:29:35,657 - tnorm_latent_variables.py - INFO: 
+ ['batch = ', 16]
+2022-09-15 02:29:35,657 - tnorm_latent_variables.py - INFO: 
+ ['Validation batch loss = ', 4.103252469183644]
+2022-09-15 02:29:35,657 - tnorm_latent_variables.py - INFO: 
+ ['px', ':', Parameter containing:
+tensor(0.0749, requires_grad=True)]
+2022-09-15 02:29:35,659 - tnorm_latent_variables.py - INFO: 
+ ['py', ':', Parameter containing:
+tensor(0.2300, requires_grad=True)]
+2022-09-15 02:29:35,661 - tnorm_latent_variables.py - INFO: 
+ ['dependency', ':', Parameter containing:
+tensor(0.4242, requires_grad=True)]
+2022-09-15 02:29:36,301 - tnorm_latent_variables.py - INFO: 
+ -------------------------------------------------------------------------
+2022-09-15 02:29:36,301 - tnorm_latent_variables.py - INFO: 
+ ['batch = ', 24]
+2022-09-15 02:29:36,301 - tnorm_latent_variables.py - INFO: 
+ ['Training batch loss = ', 12.206931024964433]
+2022-09-15 02:29:36,302 - tnorm_latent_variables.py - INFO: 
+ ['px', ':', Parameter containing:
+tensor(0.0755, requires_grad=True)]
+2022-09-15 02:29:36,304 - tnorm_latent_variables.py - INFO: 
+ ['py', ':', Parameter containing:
+tensor(0.2294, requires_grad=True)]
+2022-09-15 02:29:36,305 - tnorm_latent_variables.py - INFO: 
+ ['dependency', ':', Parameter containing:
+tensor(0.4134, requires_grad=True)]
+2022-09-15 02:29:36,337 - tnorm_latent_variables.py - INFO: 
+ -------------------------------------------------------------------------
+2022-09-15 02:29:36,337 - tnorm_latent_variables.py - INFO: 
+ ['batch = ', 24]
+2022-09-15 02:29:36,339 - tnorm_latent_variables.py - INFO: 
+ ['Validation batch loss = ', 4.0973645336634945]
+2022-09-15 02:29:36,340 - tnorm_latent_variables.py - INFO: 
+ ['px', ':', Parameter containing:
+tensor(0.0755, requires_grad=True)]
+2022-09-15 02:29:36,342 - tnorm_latent_variables.py - INFO: 
+ ['py', ':', Parameter containing:
+tensor(0.2294, requires_grad=True)]
+2022-09-15 02:29:36,344 - tnorm_latent_variables.py - INFO: 
+ ['dependency', ':', Parameter containing:
+tensor(0.4134, requires_grad=True)]
+2022-09-15 02:29:37,046 - tnorm_latent_variables.py - INFO: 
+ -------------------------------------------------------------------------
+2022-09-15 02:29:37,046 - tnorm_latent_variables.py - INFO: 
+ ['batch = ', 32]
+2022-09-15 02:29:37,046 - tnorm_latent_variables.py - INFO: 
+ ['Training batch loss = ', 12.208007430133875]
+2022-09-15 02:29:37,049 - tnorm_latent_variables.py - INFO: 
+ ['px', ':', Parameter containing:
+tensor(0.0757, requires_grad=True)]
+2022-09-15 02:29:37,049 - tnorm_latent_variables.py - INFO: 
+ ['py', ':', Parameter containing:
+tensor(0.2291, requires_grad=True)]
+2022-09-15 02:29:37,051 - tnorm_latent_variables.py - INFO: 
+ ['dependency', ':', Parameter containing:
+tensor(0.4091, requires_grad=True)]
+2022-09-15 02:29:37,074 - tnorm_latent_variables.py - INFO: 
+ -------------------------------------------------------------------------
+2022-09-15 02:29:37,074 - tnorm_latent_variables.py - INFO: 
+ ['batch = ', 32]
+2022-09-15 02:29:37,074 - tnorm_latent_variables.py - INFO: 
+ ['Validation batch loss = ', 4.095060611056397]
+2022-09-15 02:29:37,076 - tnorm_latent_variables.py - INFO: 
+ ['px', ':', Parameter containing:
+tensor(0.0757, requires_grad=True)]
+2022-09-15 02:29:37,078 - tnorm_latent_variables.py - INFO: 
+ ['py', ':', Parameter containing:
+tensor(0.2291, requires_grad=True)]
+2022-09-15 02:29:37,080 - tnorm_latent_variables.py - INFO: 
+ ['dependency', ':', Parameter containing:
+tensor(0.4091, requires_grad=True)]
+2022-09-15 02:29:37,724 - tnorm_latent_variables.py - INFO: 
+ -------------------------------------------------------------------------
+2022-09-15 02:29:37,724 - tnorm_latent_variables.py - INFO: 
+ ['batch = ', 40]
+2022-09-15 02:29:37,724 - tnorm_latent_variables.py - INFO: 
+ ['Training batch loss = ', 12.20844528550515]
+2022-09-15 02:29:37,725 - tnorm_latent_variables.py - INFO: 
+ ['px', ':', Parameter containing:
+tensor(0.0758, requires_grad=True)]
+2022-09-15 02:29:37,727 - tnorm_latent_variables.py - INFO: 
+ ['py', ':', Parameter containing:
+tensor(0.2290, requires_grad=True)]
+2022-09-15 02:29:37,729 - tnorm_latent_variables.py - INFO: 
+ ['dependency', ':', Parameter containing:
+tensor(0.4074, requires_grad=True)]
+2022-09-15 02:29:37,755 - tnorm_latent_variables.py - INFO: 
+ -------------------------------------------------------------------------
+2022-09-15 02:29:37,755 - tnorm_latent_variables.py - INFO: 
+ ['batch = ', 40]
+2022-09-15 02:29:37,755 - tnorm_latent_variables.py - INFO: 
+ ['Validation batch loss = ', 4.094149374519475]
+2022-09-15 02:29:37,757 - tnorm_latent_variables.py - INFO: 
+ ['px', ':', Parameter containing:
+tensor(0.0758, requires_grad=True)]
+2022-09-15 02:29:37,758 - tnorm_latent_variables.py - INFO: 
+ ['py', ':', Parameter containing:
+tensor(0.2290, requires_grad=True)]
+2022-09-15 02:29:37,761 - tnorm_latent_variables.py - INFO: 
+ ['dependency', ':', Parameter containing:
+tensor(0.4074, requires_grad=True)]
+2022-09-15 02:29:38,323 - tnorm_latent_variables.py - INFO: 
+ -------------------------------------------------------------------------
+2022-09-15 02:29:38,324 - tnorm_latent_variables.py - INFO: 
+ ['batch = ', 48]
+2022-09-15 02:29:38,324 - tnorm_latent_variables.py - INFO: 
+ ['Training batch loss = ', 12.208620450343005]
+2022-09-15 02:29:38,325 - tnorm_latent_variables.py - INFO: 
+ ['px', ':', Parameter containing:
+tensor(0.0758, requires_grad=True)]
+2022-09-15 02:29:38,327 - tnorm_latent_variables.py - INFO: 
+ ['py', ':', Parameter containing:
+tensor(0.2289, requires_grad=True)]
+2022-09-15 02:29:38,331 - tnorm_latent_variables.py - INFO: 
+ ['dependency', ':', Parameter containing:
+tensor(0.4067, requires_grad=True)]
+2022-09-15 02:29:38,366 - tnorm_latent_variables.py - INFO: 
+ -------------------------------------------------------------------------
+2022-09-15 02:29:38,366 - tnorm_latent_variables.py - INFO: 
+ ['batch = ', 48]
+2022-09-15 02:29:38,366 - tnorm_latent_variables.py - INFO: 
+ ['Validation batch loss = ', 4.093787867139326]
+2022-09-15 02:29:38,368 - tnorm_latent_variables.py - INFO: 
+ ['px', ':', Parameter containing:
+tensor(0.0758, requires_grad=True)]
+2022-09-15 02:29:38,370 - tnorm_latent_variables.py - INFO: 
+ ['py', ':', Parameter containing:
+tensor(0.2289, requires_grad=True)]
+2022-09-15 02:29:38,373 - tnorm_latent_variables.py - INFO: 
+ ['dependency', ':', Parameter containing:
+tensor(0.4067, requires_grad=True)]
+2022-09-15 02:29:38,949 - tnorm_latent_variables.py - INFO: 
+ -------------------------------------------------------------------------
+2022-09-15 02:29:38,950 - tnorm_latent_variables.py - INFO: 
+ ['batch = ', 56]
+2022-09-15 02:29:38,950 - tnorm_latent_variables.py - INFO: 
+ ['Training batch loss = ', 12.208690625382587]
+2022-09-15 02:29:38,951 - tnorm_latent_variables.py - INFO: 
+ ['px', ':', Parameter containing:
+tensor(0.0758, requires_grad=True)]
+2022-09-15 02:29:38,953 - tnorm_latent_variables.py - INFO: 
+ ['py', ':', Parameter containing:
+tensor(0.2289, requires_grad=True)]
+2022-09-15 02:29:38,954 - tnorm_latent_variables.py - INFO: 
+ ['dependency', ':', Parameter containing:
+tensor(0.4065, requires_grad=True)]
+2022-09-15 02:29:38,985 - tnorm_latent_variables.py - INFO: 
+ -------------------------------------------------------------------------
+2022-09-15 02:29:38,985 - tnorm_latent_variables.py - INFO: 
+ ['batch = ', 56]
+2022-09-15 02:29:38,985 - tnorm_latent_variables.py - INFO: 
+ ['Validation batch loss = ', 4.093643825210165]
+2022-09-15 02:29:38,987 - tnorm_latent_variables.py - INFO: 
+ ['px', ':', Parameter containing:
+tensor(0.0758, requires_grad=True)]
+2022-09-15 02:29:38,988 - tnorm_latent_variables.py - INFO: 
+ ['py', ':', Parameter containing:
+tensor(0.2289, requires_grad=True)]
+2022-09-15 02:29:38,990 - tnorm_latent_variables.py - INFO: 
+ ['dependency', ':', Parameter containing:
+tensor(0.4065, requires_grad=True)]
+2022-09-15 02:29:39,570 - tnorm_latent_variables.py - INFO: 
+ -------------------------------------------------------------------------
+2022-09-15 02:29:39,570 - tnorm_latent_variables.py - INFO: 
+ ['batch = ', 64]
+2022-09-15 02:29:39,570 - tnorm_latent_variables.py - INFO: 
+ ['Training batch loss = ', 12.20871841738699]
+2022-09-15 02:29:39,571 - tnorm_latent_variables.py - INFO: 
+ ['px', ':', Parameter containing:
+tensor(0.0758, requires_grad=True)]
+2022-09-15 02:29:39,572 - tnorm_latent_variables.py - INFO: 
+ ['py', ':', Parameter containing:
+tensor(0.2289, requires_grad=True)]
+2022-09-15 02:29:39,573 - tnorm_latent_variables.py - INFO: 
+ ['dependency', ':', Parameter containing:
+tensor(0.4064, requires_grad=True)]
+2022-09-15 02:29:39,596 - tnorm_latent_variables.py - INFO: 
+ -------------------------------------------------------------------------
+2022-09-15 02:29:39,596 - tnorm_latent_variables.py - INFO: 
+ ['batch = ', 64]
+2022-09-15 02:29:39,596 - tnorm_latent_variables.py - INFO: 
+ ['Validation batch loss = ', 4.093586693634279]
+2022-09-15 02:29:39,598 - tnorm_latent_variables.py - INFO: 
+ ['px', ':', Parameter containing:
+tensor(0.0758, requires_grad=True)]
+2022-09-15 02:29:39,599 - tnorm_latent_variables.py - INFO: 
+ ['py', ':', Parameter containing:
+tensor(0.2289, requires_grad=True)]
+2022-09-15 02:29:39,601 - tnorm_latent_variables.py - INFO: 
+ ['dependency', ':', Parameter containing:
+tensor(0.4064, requires_grad=True)]
+2022-09-15 02:29:40,208 - tnorm_latent_variables.py - INFO: 
+ -------------------------------------------------------------------------
+2022-09-15 02:29:40,208 - tnorm_latent_variables.py - INFO: 
+ ['batch = ', 72]
+2022-09-15 02:29:40,208 - tnorm_latent_variables.py - INFO: 
+ ['Training batch loss = ', 12.208729691279586]
+2022-09-15 02:29:40,210 - tnorm_latent_variables.py - INFO: 
+ ['px', ':', Parameter containing:
+tensor(0.0758, requires_grad=True)]
+2022-09-15 02:29:40,212 - tnorm_latent_variables.py - INFO: 
+ ['py', ':', Parameter containing:
+tensor(0.2289, requires_grad=True)]
+2022-09-15 02:29:40,213 - tnorm_latent_variables.py - INFO: 
+ ['dependency', ':', Parameter containing:
+tensor(0.4063, requires_grad=True)]
+2022-09-15 02:29:40,233 - tnorm_latent_variables.py - INFO: 
+ -------------------------------------------------------------------------
+2022-09-15 02:29:40,233 - tnorm_latent_variables.py - INFO: 
+ ['batch = ', 72]
+2022-09-15 02:29:40,233 - tnorm_latent_variables.py - INFO: 
+ ['Validation batch loss = ', 4.0935639985546]
+2022-09-15 02:29:40,235 - tnorm_latent_variables.py - INFO: 
+ ['px', ':', Parameter containing:
+tensor(0.0758, requires_grad=True)]
+2022-09-15 02:29:40,236 - tnorm_latent_variables.py - INFO: 
+ ['py', ':', Parameter containing:
+tensor(0.2289, requires_grad=True)]
+2022-09-15 02:29:40,238 - tnorm_latent_variables.py - INFO: 
+ ['dependency', ':', Parameter containing:
+tensor(0.4063, requires_grad=True)]
+2022-09-15 02:29:40,710 - tnorm_latent_variables.py - INFO: 
+ ['Training loss:', tensor([15.6674, 12.3820, 12.2925, 12.2260, 12.1938, 12.1957, 12.1968, 12.1978,
+        12.1988, 12.1997, 12.2006, 12.2013, 12.2021, 12.2027, 12.2033, 12.2039,
+        12.2044, 12.2048, 12.2052, 12.2056, 12.2059, 12.2062, 12.2065, 12.2067,
+        12.2069, 12.2071, 12.2073, 12.2074, 12.2076, 12.2077, 12.2078, 12.2079,
+        12.2080, 12.2081, 12.2082, 12.2082, 12.2083, 12.2083, 12.2084, 12.2084,
+        12.2084, 12.2085, 12.2085, 12.2085, 12.2086, 12.2086, 12.2086, 12.2086,
+        12.2086, 12.2086, 12.2086, 12.2087, 12.2087, 12.2087, 12.2087, 12.2087,
+        12.2087, 12.2087, 12.2087, 12.2087, 12.2087, 12.2087, 12.2087, 12.2087,
+        12.2087, 12.2087, 12.2087, 12.2087, 12.2087, 12.2087, 12.2087, 12.2087,
+        12.2087, 12.2087, 12.2087, 12.2087, 12.2087, 12.2087, 12.2087, 12.2087])]
+2022-09-15 02:29:40,711 - tnorm_latent_variables.py - INFO: 
+ ['Testing Loss:', tensor([0.5281, 0.5186, 0.5099, 0.5055, 0.5057, 0.5053, 0.5051, 0.5048, 0.5046,
+        0.5044, 0.5043, 0.5041, 0.5040, 0.5039, 0.5038, 0.5038, 0.5037, 0.5036,
+        0.5036, 0.5035, 0.5035, 0.5035, 0.5034, 0.5034, 0.5034, 0.5034, 0.5033,
+        0.5033, 0.5033, 0.5033, 0.5033, 0.5033, 0.5033, 0.5033, 0.5032, 0.5032,
+        0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032,
+        0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032,
+        0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032,
+        0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032,
+        0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032])]
+2022-09-15 02:29:40,712 - tnorm_latent_variables.py - INFO: 
+ ['norms:', tensor([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0.])]
+2022-09-15 02:29:40,712 - tnorm_latent_variables.py - INFO: 
+ Training complete.
